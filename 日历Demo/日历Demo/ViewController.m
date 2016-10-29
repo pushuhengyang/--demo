@@ -91,7 +91,7 @@
     
     if ([cellDate compare:_firstDate]==NSOrderedSame ) {
         
-        cell.layer.zPosition=100;
+        cell.layer.zPosition=10;
     }else{
         cell.layer.zPosition=0;
     }
